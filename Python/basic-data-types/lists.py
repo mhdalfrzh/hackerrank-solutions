@@ -8,17 +8,25 @@ Consider a list (list = []). You can perform the following commands:
 - pop: Pop the last element from the list.
 - reverse: Reverse the list.
 
-Example :
-N = 4
+Sample Input
+12
+insert 0 5
+insert 1 10
+insert 0 6
+print
+remove 6
+append 9
 append 1
-append 2
-insert 3 1
+sort
+print
+pop
+reverse
 print
 
-append 1 : Append 1 to the list
-append 2 : append 2 to the list
-insert 3 1 : insert 3 at index 1
-print : print the array
+Sample Output
+[6, 5, 10]
+[1, 5, 9, 10]
+[9, 5, 1]
 '''
 
 if __name__ == '__main__':
