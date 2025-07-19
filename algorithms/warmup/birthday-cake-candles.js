@@ -1,0 +1,28 @@
+/*
+You are in charge of the cake for a child's birthday. It will have one candle for each year of their total age. They will only be able to blow out the tallest of the candles. Your task is to count how many candles are the tallest.
+
+Sample Input
+4
+3 2 1 3
+
+Sample Output
+2
+*/
+
+function birthdayCakeCandles(candles) {
+  let max = candles[0];
+  let count = 0;
+
+  for (let height of candles) {
+    if (height > max) {
+      max = height;
+      count = 1;
+    } else if (height === max) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(birthdayCakeCandles([3, 2, 1, 3]));
