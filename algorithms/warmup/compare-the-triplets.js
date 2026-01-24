@@ -29,7 +29,7 @@ function compareTriplets(a, b) {
   return [alicePoints, bobPoints];
 }
 
-const a = [5, 6, 7]
-const b = [3, 6, 10]
+const a = [5, 6, 7];
+const b = [3, 6, 10];
 
 console.log(compareTriplets(a, b));

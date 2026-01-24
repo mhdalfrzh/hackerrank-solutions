@@ -9,8 +9,8 @@ Sample Output
 5
 */
 
-function solveMeFirst(a, b){
-    return a + b;
+function solveMeFirst(a, b) {
+  return a + b;
 }
 
-console.log(solveMeFirst(2,3))
+console.log(solveMeFirst(2, 3));
